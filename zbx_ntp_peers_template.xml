@@ -257,7 +257,16 @@
                 </discovery_rule>
             </discovery_rules>
             <httptests/>
-            <macros/>
+            <macros>
+                <macro>
+                    <macro>{$NTP_STRATUM_THRESHOLD}</macro>
+                    <value>4</value>
+                </macro>
+            </macros>            
+            
+            
+            
+
             <templates/>
             <screens/>
         </template>
